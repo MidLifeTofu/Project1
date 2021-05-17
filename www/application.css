@@ -74,6 +74,44 @@ footer {
     margin: 30px 10px 30px 10px;
 }
 
+@media screen and (max-width: 600px){
+    .nav {
+        float: none;
+    }
+
+    #groupheads {
+        height: 100px;
+        float: inherit;
+    }
+    #shopFront2 {
+        max-height: 50px;
+        width: auto;
+        float: inherit;
+        margin: 20px 20px;
+        }
+
+    #aboutus1 {
+        font-size: 20px;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    #aboutus2 {
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    #aboutus3 {
+        font-size: 20px;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    #aboutus4 {
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+}
 
 /* Home Page (index.html */
 
@@ -88,10 +126,15 @@ footer {
     text-shadow: 2px 2px darkslategrey;
 }
 
+.shopFront {
+    display: flex;
+    align-items: baseline;
+}
+
 #shopFront {
     display: block;
-    height: 800px; /*need to change to % */
-    width: auto;
+    max-width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
